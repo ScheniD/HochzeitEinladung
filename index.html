@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsere Hochzeit | Einladung & Infos</title>
+    <!-- Google Fonts for Elegant Serif Headers & Clean Sans-Serif Body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,300&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Hero / Welcome Section -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-sub">Herzliche Einladung zu unserer Hochzeit</span>
+            <h1 class="hero-title">Dominik & Ivana</h1>
+            <p class="hero-date">Freitag, 24. Juli 2026</p>
+            
+            <!-- Countdown Timer -->
+            <div class="countdown-container">
+                <div class="countdown-item">
+                    <span class="countdown-num" id="days">00</span>
+                    <span class="countdown-label">Tage</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-num" id="hours">00</span>
+                    <span class="countdown-label">Std</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-num" id="minutes">00</span>
+                    <span class="countdown-label">Min</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-num" id="seconds">00</span>
+                    <span class="countdown-label">Sek</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span class="scroll-arrow">&#x2193;</span>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+
+        <!-- Schedule / Ablauf Section -->
+        <section class="section" id="schedule">
+            <h2 class="section-title">Unser Tag</h2>
+            <p class="section-subtitle">Hier findet ihr die wichtigsten Stationen und Zeiten unserer Hochzeit.</p>
+            
+            <div class="timeline">
+                <!-- Station 1: Trauung -->
+                <div class="timeline-card">
+                    <div class="timeline-time">10:00 Uhr</div>
+                    <div class="timeline-icon">
+                        <!-- Custom Ring Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="8" cy="15" r="5" />
+                            <circle cx="16" cy="15" r="5" />
+                            <path d="M12 10a5 5 0 0 0 4-4" />
+                            <path d="M12 10a5 5 0 0 1-4-4" />
+                        </svg>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Standesamtliche Trauung</h3>
+                        <p class="location-name">Palmengarten Frankfurt (Haus Rosenbrunn)</p>
+                        <p class="location-detail">Siesmayerstraße 61, 60323 Frankfurt am Main</p>
+                        <p class="location-note"><strong>Wichtig:</strong> Der Einlass in den Palmengarten wird bereits ab <strong>08:45 Uhr</strong> gewährt. Bringt bitte eure Einladung als Einlasskarte mit!</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Palmengarten+Frankfurt+Haus+Rosenbrunn" target="_blank" rel="noopener" class="btn btn-secondary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            Auf Google Maps öffnen
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Station 2: Afterparty -->
+                <div class="timeline-card">
+                    <div class="timeline-time">13:00 Uhr</div>
+                    <div class="timeline-icon">
+                        <!-- Custom Glass/Celebration Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2v20M5 12h14" />
+                            <path d="m17 5 3-3M7 5 4 2" />
+                            <circle cx="12" cy="12" r="10" />
+                        </svg>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Essen & Afterparty</h3>
+                        <p class="location-name">Princess Frankfurt – Restaurant, Brunch, Dinner & Bar</p>
+                        <p class="location-detail">Thurn-und-Taxis-Platz 1, 60313 Frankfurt am Main</p>
+                        <p class="location-note">Nach der Trauung machen wir uns gemeinsam auf den Weg in die Innenstadt zum Princess Frankfurt, um lecker zu essen und den Tag gebührend zu feiern.</p>
+                        <div class="card-actions">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Princess+Frankfurt+Thurn+und+Taxis+Platz" target="_blank" rel="noopener" class="btn btn-secondary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                                Auf Google Maps öffnen
+                            </a>
+                            <a href="https://princess-frankfurt.de/" target="_blank" rel="noopener" class="btn btn-secondary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                                </svg>
+                                Website ansehen
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Upload / Dropbox Section -->
+        <section class="section photo-section" id="photos">
+            <div class="photo-card">
+                <div class="photo-info">
+                    <h2 class="section-title text-left">Teilt eure Schnappschüsse!</h2>
+                    <p>Wir würden uns riesig freuen, wenn ihr die schönsten Momente, die ihr während der Hochzeit mit eurem Handy festhaltet, mit uns teilt.</p>
+                    <p>Scannt einfach den QR-Code mit eurer Kamera oder klickt direkt auf den Button unten. Ihr könnt eure Fotos <strong>sofort und ohne Dropbox-Registrierung</strong> in unseren freigegebenen Ordner hochladen.</p>
+                    
+                    <!-- Configurable link via data-dropbox-url -->
+                    <a href="#" id="dropbox-btn" target="_blank" rel="noopener" class="btn btn-primary btn-large">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="17 8 12 3 7 8"></polyline>
+                            <line x1="12" y1="3" x2="12" y2="15"></line>
+                        </svg>
+                        Bilder jetzt hochladen
+                    </a>
+                </div>
+                <div class="photo-qr-container">
+                    <div class="qr-frame">
+                        <img src="" id="qr-code-img" alt="Dropbox Dateianfrage QR-Code">
+                        <div class="qr-loading">Lade QR-Code...</div>
+                    </div>
+                    <span class="qr-label">QR-Code scannen zum Hochladen</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Important Info / FAQ Section -->
+        <section class="section" id="info">
+            <h2 class="section-title">Wichtige Gästeinformationen</h2>
+            <p class="section-subtitle">Hier findet ihr alle organisatorischen Details des Standesamts für einen reibungslosen Ablauf.</p>
+
+            <div class="faq-group">
+                <!-- Details 1: Gästeanzahl -->
+                <details class="faq-card" name="wedding-faq" open>
+                    <summary class="faq-header">
+                        <span class="faq-question">Gästeanzahl & Plätze im Trausaal</span>
+                        <span class="faq-arrow">&#x25BC;</span>
+                    </summary>
+                    <div class="faq-content">
+                        <p>Der Trausaal im Haus Rosenbrunn bietet für euch und eure Gäste insgesamt <strong>24 Sitzplätze und 10 Stehplätze</strong>.</p>
+                        <ul>
+                            <li>Kinder unter 6 Jahren zählen nicht zur Gästeanzahl hinzu.</li>
+                            <li>Sollte ein Dolmetscher erforderlich sein oder bringt ihr einen professionellen Fotografen mit, so müssen diese als Gäste gezählt werden.</li>
+                        </ul>
+                    </div>
+                </details>
+
+                <!-- Details 2: Einlass -->
+                <details class="faq-card" name="wedding-faq">
+                    <summary class="faq-header">
+                        <span class="faq-question">Einlass & Einlasskarte zum Palmengarten</span>
+                        <span class="faq-arrow">&#x25BC;</span>
+                    </summary>
+                    <div class="faq-content">
+                        <p>Die schriftliche Hochzeitseinladung an euch dient gleichzeitig als <strong>Einlasskarte für den Palmengarten</strong>. Der Einlass für unsere Gäste wird ab <strong>08:45 Uhr</strong> gewährt. Bitte informiert eure Gäste im Vorfeld darüber.</p>
+                    </div>
+                </details>
+
+                <!-- Details 3: Ausweispflicht -->
+                <details class="faq-card" name="wedding-faq">
+                    <summary class="faq-header">
+                        <span class="faq-question">Ausweispflicht</span>
+                        <span class="faq-arrow">&#x25BC;</span>
+                    </summary>
+                    <div class="faq-content">
+                        <p>Das Brautpaar, die Trauzeugen und, sofern erforderlich, ein Dolmetscher benötigen am Tag der Eheschließung ein <strong>gültiges Ausweisdokument</strong> (Reisepass oder Personalausweis).</p>
+                    </div>
+                </details>
+
+                <!-- Details 4: Fotos & Videos -->
+                <details class="faq-card" name="wedding-faq">
+                    <summary class="faq-header">
+                        <span class="faq-question">Foto- & Videoaufnahmen während der Trauung</span>
+                        <span class="faq-arrow">&#x25BC;</span>
+                    </summary>
+                    <div class="faq-content">
+                        <p>Das Standesamt weist ausdrücklich darauf hin, dass <strong>Veröffentlichungen (z.B. im Internet, Social Media, Werbeflyern)</strong> von Foto- und Videoaufnahmen, auf denen der Standesbeamte erkennbar bzw. hörbar ist, <strong>nicht erlaubt</strong> sind.</p>
+                    </div>
+                </details>
+
+                <!-- Details 5: Nach der Trauung / Reis werfen -->
+                <details class="faq-card" name="wedding-faq">
+                    <summary class="faq-header">
+                        <span class="faq-question">Reis, Blumen werfen & Sektempfang</span>
+                        <span class="faq-arrow">&#x25BC;</span>
+                    </summary>
+                    <div class="faq-content">
+                        <p>Das Werfen mit Reis, Blumen oder Konfetti im Palmengarten ist aus Sicherheitsgründen <strong>strengstens untersagt</strong>. Ebenso ist das Zünden von Feuerwerkskörpern nicht gestattet.</p>
+                        <p><strong>Die Alternative:</strong> Eine schöne und erlaubte Alternative sind zum Beispiel <strong>Seifenblasen</strong>.</p>
+                        <p>Bezüglich Standorten für einen eventuellen Sektempfang und dem Parken beachten Sie bitte das separate Merkblatt des Palmengartens.</p>
+                    </div>
+                </details>
+
+                <!-- Details 6: Stammbuch & Ringtausch -->
+                <details class="faq-card" name="wedding-faq">
+                    <summary class="faq-header">
+                        <span class="faq-question">Stammbuch & Ringtausch</span>
+                        <span class="faq-arrow">&#x25BC;</span>
+                    </summary>
+                    <div class="faq-content">
+                        <p>Ein Ringtausch im Rahmen der Trauung ist natürlich sehr gerne möglich. Sofern ihr eure Eheurkunden in einem Stammbuch aufbewahren möchtet, bringt dieses bitte am Tag der Eheschließung ausgefüllt/mit.</p>
+                    </div>
+                </details>
+
+                <!-- Details 7: Ort & Temperatur -->
+                <details class="faq-card" name="wedding-faq">
+                    <summary class="faq-header">
+                        <span class="faq-question">Zeitlicher Ablauf & Gegebenheiten vor Ort</span>
+                        <span class="faq-arrow">&#x25BC;</span>
+                    </summary>
+                    <div class="faq-content">
+                        <p>Im Haus Rosenbrunn finden freitags fünf Trauungen jeweils zur vollen Stunde statt. Die Dauer der Zeremonie beträgt ca. <strong>20 Minuten</strong>.</p>
+                        <p><strong>Wichtiger Hinweis:</strong> Das historische Haus Rosenbrunn ist <strong>weder beheizt noch klimatisiert</strong>. Bitte stellt euch und eure Gäste bezüglich der Kleidung auf die jeweiligen Wetterbedingungen am Tag ein.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Wir freuen uns unendlich darauf, diesen besonderen Tag mit euch zu verbringen!</p>
+        <p class="footer-names">Dominik & Ivana</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
