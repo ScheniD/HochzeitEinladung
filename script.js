@@ -25,11 +25,17 @@ document.addEventListener("DOMContentLoaded", () => {
  */
 function initDropboxLinkAndQRCode() {
     const dropboxBtn = document.getElementById("dropbox-btn");
+    const directLink = document.getElementById("dropbox-direct-link");
     const qrImg = document.getElementById("qr-code-img");
     const qrLoading = document.querySelector(".qr-loading");
 
     if (dropboxBtn) {
         dropboxBtn.href = DROPBOX_UPLOAD_URL;
+    }
+
+    if (directLink) {
+        directLink.href = DROPBOX_UPLOAD_URL;
+        directLink.textContent = DROPBOX_UPLOAD_URL;
     }
 
     if (qrImg) {
