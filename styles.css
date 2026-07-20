@@ -112,17 +112,21 @@ h1, h2, h3, h4 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 12px 28px;
+    padding: 12px 20px;
     font-family: var(--font-body);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: 600;
     text-decoration: none;
     border-radius: 50px;
     cursor: pointer;
     transition: var(--transition-smooth);
     border: none;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    white-space: normal;
 }
 
 .btn-icon {
@@ -427,7 +431,7 @@ h1, h2, h3, h4 {
         left: 20px;
     }
     .timeline-card {
-        padding-left: 50px;
+        padding-left: 45px;
     }
     .timeline-icon {
         left: 0;
@@ -435,10 +439,18 @@ h1, h2, h3, h4 {
         height: 38px;
     }
     .timeline-content {
-        padding: 20px;
+        padding: 20px 16px;
     }
     .timeline-content h3 {
         font-size: 1.25rem;
+    }
+    .card-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+    .card-actions .btn {
+        width: 100%;
+        margin-left: 0 !important;
     }
 }
 
@@ -537,11 +549,14 @@ h1, h2, h3, h4 {
 @media (max-width: 768px) {
     .photo-card {
         grid-template-columns: 1fr;
-        padding: 32px;
+        padding: 24px 16px;
         gap: 32px;
     }
     .photo-info {
         text-align: center;
+    }
+    .photo-info .btn {
+        width: 100%;
     }
     .photo-title::after {
         margin: 16px auto 0;
